@@ -1,0 +1,46 @@
+.item {
+  width: 100%;
+}
+
+.item:hover {
+  box-shadow: 10px 10px 10px 10px #fff;
+  transition: 0.3s;
+}
+
+.image {
+  width: 100%;
+  overflow: hidden;
+  border-top-right-radius: 6px;
+  border-top-left-radius: 6px;
+}
+
+
+.image img {
+  width: 100%;
+  object-fit: cover;
+  padding-top: 30px;
+  background-color: #FCCF47;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.content {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 10px;
+}
+
+.content h3 {
+  font-size: 1.95rem;
+  color: #2c292b;
+}
+
+
+.content span {
+  font-size: 1.95rem;
+  font-weight: 600;
+  color: #FCCF47;
+}
+
+@media (max-width: 478px) {}

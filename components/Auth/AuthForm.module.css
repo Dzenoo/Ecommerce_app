@@ -1,0 +1,50 @@
+.form {
+    max-width: 25rem;
+    width: 35%;
+    margin: 3rem auto;
+    padding: 30px;
+    background-color: rgb(195, 195, 195);
+    border-radius: 30px;
+}
+
+.form h1 {
+    text-align: center;
+}
+
+.control {
+    margin-bottom: 0.5rem;
+}
+
+.control input {
+    font: inherit;
+    background-color: #ffffff;
+    color: #303030;
+    border: 1px solid #ffffff;
+    width: 100%;
+    text-align: left;
+    padding: 1.25rem;
+}
+
+.actions {
+    margin-top: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.2em;
+}
+
+.actions button {
+    cursor: pointer;
+    font: inherit;
+    color: white;
+    background-color: #4184f8;
+    border: 1px solid #4184f8;
+    padding: 0.5rem 2.5rem;
+}
+
+.actions .toggle {
+    background-color: transparent;
+    border: none;
+    font-size: 20px;
+    color: #4184f8;
+}

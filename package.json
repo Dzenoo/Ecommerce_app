@@ -1,0 +1,26 @@
+{
+  "name": "nextjs-course",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^6.2.1",
+    "@fortawesome/free-solid-svg-icons": "^6.2.1",
+    "@fortawesome/react-fontawesome": "^0.2.0",
+    "@reduxjs/toolkit": "^1.9.0",
+    "@stripe/react-stripe-js": "^1.15.0",
+    "@stripe/stripe-js": "^1.44.1",
+    "bootstrap": "^5.2.3",
+    "mongodb": "^4.11.0",
+    "next": "10.0.6",
+    "react": "17.0.1",
+    "react-bootstrap": "^2.6.0",
+    "react-dom": "17.0.1",
+    "react-icons": "^4.6.0",
+    "react-redux": "^8.0.5"
+  }
+}
